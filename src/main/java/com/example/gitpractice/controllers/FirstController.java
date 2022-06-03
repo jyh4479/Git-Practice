@@ -10,4 +10,9 @@ public class FirstController {
     public String TestController() {
         return "Hello";
     }
+
+    @GetMapping("/develop")
+    public String DevelopController() {
+        return "develop";
+    }
 }
